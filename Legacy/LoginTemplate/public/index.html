@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Index</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+        }
+
+        #div1 {
+            color: darkslategray;
+            font-size: 25px;
+            margin-top: 10%;
+        }
+
+        #div2 {
+            font-size: 25px;
+            color: rgb(34, 41, 23);
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            margin-top: 20px;
+        }
+
+        #div2 a {
+            text-decoration: none;
+            font-size: 23px;
+            font-family: 'Times New Roman', Times, serif;
+            color: lightseagreen;
+        }
+
+        /* Responsive Styles */
+        @media (max-width: 768px) {
+            #div1, #div2 {
+                font-size: 18px;
+                margin-top: 5%;
+            }
+
+            #div2 a {
+                font-size: 18px;
+            }
+        }
+
+        @media (max-width: 480px) {
+            #div1, #div2 {
+                font-size: 16px;
+                margin-top: 2%;
+            }
+
+            #div2 a {
+                font-size: 16px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <div id="div1">
+            <h1 id="greet1">Welcome to ReactJS 2nd Demo</h1>
+        </div>
+        <div id="div2">
+            <p id="text1">We are creating one basic<br>login template for Student<br>
+            <a href="home.html">Click</a></p>
+        </div>
+    </div>
+</body>
+</html>
